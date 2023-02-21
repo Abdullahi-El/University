@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   }
+   body {
+   background-size: cover;    
+   background-position: center;
+   background-image: url(https://cdn.pixabay.com/photo/2020/02/06/20/01/university-library-4825366_960_720.jpg);
+   font-family: sans-serif;
+   font-size: 16px;
+   color: black;
+   
+   }
+   .menu-bar {
+       background: rgb(45, 100, 0);
+       text-align: center;
+   }
+   
+   .menu-bar ul  {
+       display: inline-flex;
+       list-style: none;
+       color: #fff;
+   }
+   .menu-bar ul li {
+       width: 110px;
+       margin: 10px;
+       padding: 10px;
+   }
+   .menu-bar ul li a {
+       text-decoration: none;
+       color: #fff;
+   }
+   .active, .menu-bar ul li:hover {
+       background: black;
+       border-radius :3px; 
+   }
+   .bi-house-dash-fill {
+       margin-right: 15px;
+   }
+   .bi-building {
+       margin-right: 5px;
+   }
+   .bi-pc-display-horizontal {
+       margin-right: 10px;
+   }
+   
+.bi-person-circle {
+ margin-right: 15px;
+}
+.bi-file-person-fill {
+ margin-right: 7px;
+}
+.bi-calendar-check {
+ margin-right: 15px;
+}
+.bi-eyedropper {
+ margin-right: 10px;
+}
+.bi-phone-vibrate {
+ margin-right: 15px;
+}
+   
+form {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column; /* stacks elements on top of each other */
+    align-items: center;
+    /*justify-content: center;*/
+    position: absolute;
+    top: 50%; /* positions the form 50% from the top of the viewport */
+    left: 50%; /* positions the form 50% from the left of the viewport */
+    transform: translate(-50%, -50%); /* centers the form */
+    /*border-radius: 100%;*/
+      }
+  label {
+    display: block;
+    margin-bottom: 12px;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+   /* margin-right: 30px;*/
+   margin: 5px;
+  }    
+  input {
+    display: inline-flex;
+    margin-bottom: 20px;
+
+  }
+  .bi-envelope-at-fill {
+    margin:10px;
+    color: red;
+    right: 10px;
+  }
+  .bi-file-earmark-lock-fill {
+    margin:10px;
+    color: red;
+    margin-right: 10px;
+  }
+  .submit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: bold;
+  }
+  .gender label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .gender input[type="radio"] {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  
+/* Target the male and female radio buttons' labels */
+#gender-male + label,
+#gender-female + label {
+  /* CSS styles gre */
+  margin-bottom: 10px;
+}
